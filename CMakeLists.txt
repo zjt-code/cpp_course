@@ -6,4 +6,6 @@ project(namespace)
 # add_executable(namespace const.cpp)
 # add_executable(namespace 10_2_7_1_pythicalAndLogicalConst.cpp)
 #  add_executable(namespace 10_2_7_2_mutable.cpp)
- add_executable(namespace 10_3_High_Efficient_UserDef.cpp)
+#  add_executable(namespace 10_3_High_Efficient_UserDef.cpp)
+
+ add_executable(namespace 10_3_1_Member_Function.cpp)

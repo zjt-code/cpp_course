@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj"
-  "CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj.d"
+  "CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj"
+  "CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj.d"
   "libnamespace.dll.a"
   "namespace.exe"
   "namespace.exe.manifest"

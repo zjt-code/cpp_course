@@ -68,28 +68,28 @@ include CMakeFiles/namespace.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/namespace.dir/flags.make
 
-CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj: CMakeFiles/namespace.dir/flags.make
-CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj: E:/Prgramming_language/C++/cpp_seris/23_chapter10_class/10_3_High_Efficient_UserDef.cpp
-CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj: CMakeFiles/namespace.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj"
-	D:\mingw810\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj -MF CMakeFiles\namespace.dir\10_3_High_Efficient_UserDef.cpp.obj.d -o CMakeFiles\namespace.dir\10_3_High_Efficient_UserDef.cpp.obj -c E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\10_3_High_Efficient_UserDef.cpp
+CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj: CMakeFiles/namespace.dir/flags.make
+CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj: E:/Prgramming_language/C++/cpp_seris/23_chapter10_class/10_3_1_Member_Function.cpp
+CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj: CMakeFiles/namespace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj"
+	D:\mingw810\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj -MF CMakeFiles\namespace.dir\10_3_1_Member_Function.cpp.obj.d -o CMakeFiles\namespace.dir\10_3_1_Member_Function.cpp.obj -c E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\10_3_1_Member_Function.cpp
 
-CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.i"
-	D:\mingw810\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\10_3_High_Efficient_UserDef.cpp > CMakeFiles\namespace.dir\10_3_High_Efficient_UserDef.cpp.i
+CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.i"
+	D:\mingw810\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\10_3_1_Member_Function.cpp > CMakeFiles\namespace.dir\10_3_1_Member_Function.cpp.i
 
-CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.s"
-	D:\mingw810\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\10_3_High_Efficient_UserDef.cpp -o CMakeFiles\namespace.dir\10_3_High_Efficient_UserDef.cpp.s
+CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.s"
+	D:\mingw810\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Prgramming_language\C++\cpp_seris\23_chapter10_class\10_3_1_Member_Function.cpp -o CMakeFiles\namespace.dir\10_3_1_Member_Function.cpp.s
 
 # Object files for target namespace
 namespace_OBJECTS = \
-"CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj"
+"CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj"
 
 # External object files for target namespace
 namespace_EXTERNAL_OBJECTS =
 
-namespace.exe: CMakeFiles/namespace.dir/10_3_High_Efficient_UserDef.cpp.obj
+namespace.exe: CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj
 namespace.exe: CMakeFiles/namespace.dir/build.make
 namespace.exe: CMakeFiles/namespace.dir/linkLibs.rsp
 namespace.exe: CMakeFiles/namespace.dir/objects1
