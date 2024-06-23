@@ -25,15 +25,16 @@ private:
 };
 
  int Date::abc=0;
-  Date Date::default_date(6,7,8);
+ 
 // Date  default_date(1,2,3);
+
+Date Date::default_date = Date(1,2,3);
 
 void Date::set_default(int dd,int mm,int yy)
 {
-
    // if(abc > 0) std::cout<<" big than o"<<std::endl;
 
-   default_date = Date(dd,mm,yy);
+//   static Date Date::default_date = Date(dd,mm,yy);
 
     // Date default_date();
     // y = yy;
@@ -76,10 +77,6 @@ int main(int garn, char *grv[])
 
     Date mydate;
     // std::cout<< "yy = " << mydate.year() <<" mm = " << mydate.month() << " dd=" <<mydate.day()<<std::endl;
-
- 
-
-
 
     Date *p_default = mydate.Date_Get_Default();
     std::cout<< "yy = " << p_default->year() <<" mm = " << p_default->month() << " dd=" <<p_default->day()<<std::endl;

@@ -1,7 +1,7 @@
 [
 {
   "directory": "E:/Prgramming_language/C++/cpp_seris/23_chapter10_class/build",
-  "command": "D:\\mingw810\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\namespace.dir\\10_3_1_Member_Function.cpp.obj -c E:\\Prgramming_language\\C++\\cpp_seris\\23_chapter10_class\\10_3_1_Member_Function.cpp",
-  "file": "E:/Prgramming_language/C++/cpp_seris/23_chapter10_class/10_3_1_Member_Function.cpp"
+  "command": "D:\\mingw810\\bin\\g++.exe   -g -std=gnu++11 -o CMakeFiles\\namespace.dir\\10_4_5_Free_Storage.cpp.obj -c E:\\Prgramming_language\\C++\\cpp_seris\\23_chapter10_class\\10_4_5_Free_Storage.cpp",
+  "file": "E:/Prgramming_language/C++/cpp_seris/23_chapter10_class/10_4_5_Free_Storage.cpp"
 }
 ]

@@ -128,29 +128,29 @@ namespace/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/build
 .PHONY : namespace/fast
 
-10_3_1_Member_Function.obj: 10_3_1_Member_Function.cpp.obj
-.PHONY : 10_3_1_Member_Function.obj
+10_4_5_Free_Storage.obj: 10_4_5_Free_Storage.cpp.obj
+.PHONY : 10_4_5_Free_Storage.obj
 
 # target to build an object file
-10_3_1_Member_Function.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.obj
-.PHONY : 10_3_1_Member_Function.cpp.obj
+10_4_5_Free_Storage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/10_4_5_Free_Storage.cpp.obj
+.PHONY : 10_4_5_Free_Storage.cpp.obj
 
-10_3_1_Member_Function.i: 10_3_1_Member_Function.cpp.i
-.PHONY : 10_3_1_Member_Function.i
+10_4_5_Free_Storage.i: 10_4_5_Free_Storage.cpp.i
+.PHONY : 10_4_5_Free_Storage.i
 
 # target to preprocess a source file
-10_3_1_Member_Function.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.i
-.PHONY : 10_3_1_Member_Function.cpp.i
+10_4_5_Free_Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/10_4_5_Free_Storage.cpp.i
+.PHONY : 10_4_5_Free_Storage.cpp.i
 
-10_3_1_Member_Function.s: 10_3_1_Member_Function.cpp.s
-.PHONY : 10_3_1_Member_Function.s
+10_4_5_Free_Storage.s: 10_4_5_Free_Storage.cpp.s
+.PHONY : 10_4_5_Free_Storage.s
 
 # target to generate assembly for a file
-10_3_1_Member_Function.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/10_3_1_Member_Function.cpp.s
-.PHONY : 10_3_1_Member_Function.cpp.s
+10_4_5_Free_Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\namespace.dir\build.make CMakeFiles/namespace.dir/10_4_5_Free_Storage.cpp.s
+.PHONY : 10_4_5_Free_Storage.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... namespace
-	@echo ... 10_3_1_Member_Function.obj
-	@echo ... 10_3_1_Member_Function.i
-	@echo ... 10_3_1_Member_Function.s
+	@echo ... 10_4_5_Free_Storage.obj
+	@echo ... 10_4_5_Free_Storage.i
+	@echo ... 10_4_5_Free_Storage.s
 .PHONY : help
 
 
