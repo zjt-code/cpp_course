@@ -12,7 +12,8 @@ project(namespace)
 #  add_executable(namespace 10_4_1_destructor.cpp)
   # add_executable(namespace 10_4_4_LocalVarieble.cpp)
   # add_executable(namespace 10_4_5_Free_Storage.cpp)
-add_executable(namespace 10_4_6_Class_Objects_As_Members.cpp)
+# add_executable(namespace 10_4_6_Class_Objects_As_Members.cpp)
+add_executable(namespace 10_4_7_array.cpp)
 
 
 

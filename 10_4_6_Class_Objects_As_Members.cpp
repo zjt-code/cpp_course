@@ -124,33 +124,74 @@ Person::Person(const std::string &n, const std::string &a)
 class Curious{
 
     public:
-    static const int c1 = 7;
-    // static int c2 = 11; // error
+    static const int c1;
+    //static int c2 = 11; // error
     const int c3 = 13;
     //  static const int c4 = f(6); //error 
-     static int c4;  
+    static int c4;  
 
     // static const float c5 = 7.0f;
 };
 
-int Curious::c4 = 1;
+ int Curious::c4 ;
+
+ int const Curious::c1=10;
 /************************ */
 
+/************10.4.6.3*** copy member**********/
+
+class Unique_handle{
+
+    public:
+    Unique_handle(const Unique_handle&);
+    Unique_handle& operator =(const Unique_handle&);
+
+    public:
+    //
+};
+
+struct Y
+{
+    /* data */
+    Unique_handle a;
+};
+
+/*************************/
 int main(int argn, char *argv[])
 {
-    Date mydate;
+
    // Table myTab;
-    Curious b;
 
-    X x;
-
-    std::cout<<" x" <<x.c1<<std::endl;
+   /******* test 10.4.6.2  vareble*/
+    Curious b,c; 
 
     std::cout<<b.c3<<std::endl;
     std::cout<<b.c1<<std::endl;
     std::cout<<b.c4<<std::endl;
 
-    Club a("zhangjingtao",mydate);
+    std::cout<<"addr b.c3:" <<&b.c3<<std::endl;
+    std::cout<<"addr c.c3:" << &c.c3 <<std::endl;
+
+
+    std::cout<<"addr b.c1:" <<&b.c1<<std::endl;
+    std::cout<<"addr c.c1:" << &c.c1 <<std::endl;
+
+
+    std::cout<<"addr b.c4:" <<&b.c4<<std::endl;
+    std::cout<<"addr c.c4:" << &c.c4 <<std::endl;
+    /*****************************end */
+
+    X x;
+
+    std::cout<<" x" <<x.c1<<std::endl;
+   // Date mydate;
+   // Club a("zhangjingtao",mydate);
+
+
+  // test 10.4.6.3
+
+    // Y y1;
+    // Y y2 = y1;
 
     return 0;
 }
