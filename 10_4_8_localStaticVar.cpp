@@ -3,7 +3,7 @@
 class Table
 {
     private:
-     int v;
+    int v;
     public:
     Table(int x ):v(x)
     {
@@ -41,8 +41,5 @@ int main(int argn, char *agrv[])
 {
 
     fn(1);
-
-
-
     return 0;
 }
