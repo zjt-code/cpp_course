@@ -15,7 +15,17 @@ project(namespace)
 # add_executable(namespace 10_4_6_Class_Objects_As_Members.cpp)
 # add_executable(namespace 10_4_7_array.cpp)
 # add_executable(namespace 10_4_8_localStaticVar.cpp)
-add_executable(namespace 10_4_10_TempObj.cpp)
+# add_executable(namespace 10_4_10_TempObj.cpp)
+# add_executable(namespace 11_2_OperatorFunction.cpp)
+# add_executable(namespace 12_2_Drived_Class.cpp)
+# add_executable(namespace 12_2_1_member_fun.cpp)
+# add_executable(namespace 12_2_2_constructandDeconstruct.cpp)
+# add_executable(namespace 12_2_4_class_hierarchy.cpp)
+# add_executable(namespace 12_2_5_type_field.cpp)
+ add_executable(namespace 12_2_6_virtual_function.cpp)
+
+
+
 
 
 
